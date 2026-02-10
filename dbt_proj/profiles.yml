@@ -3,7 +3,7 @@ oms_dbt_proj:
   outputs:
     dev:
       type: snowflake
-      role: SYSADMIN
+      role: accountadmin
       warehouse: LLM_WH
       database: SLEEKMART_OMS
       schema: L1_LANDING
