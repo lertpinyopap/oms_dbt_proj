@@ -1,4 +1,4 @@
-dbt_proj:
+oms_dbt_proj:
   target: dev
   outputs:
     dev:
