@@ -1,0 +1,11 @@
+oms_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: accountadmin
+      database: SLEEKMART_OMS
+      schema: L1_LANDING
+      warehouse: LLM_WH
